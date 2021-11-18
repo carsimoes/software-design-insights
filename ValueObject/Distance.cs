@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace software_design_insights.ValueObject
+namespace ValueObject
 {
     public abstract record UnitOfMeasure;
 

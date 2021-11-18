@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace software_design_insights.ValueObject
+namespace ValueObject
 {
     public record PlaceOrderCommand(Guid CustomerId, string ProductSku, int Quantity, PlaceOrderCurrency Currenncy)
     {

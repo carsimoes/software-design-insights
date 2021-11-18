@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace software_design_insights.ValueObject
+namespace ValueObject
 {
     public record Currency(string Symbol)
     {
@@ -12,13 +12,13 @@ namespace software_design_insights.ValueObject
 
     public class MoneyTests
     {
-        [Fact]
-        public void Test()
-        {
-            var money1 = new Money(Currency.CAD, Amount: 100);
-            var money2 = new Money(Currency.CAD, Amount: 100);
+        //[Fact]
+        //public void Test()
+        //{
+        //    var money1 = new Money(Currency.CAD, Amount: 100);
+        //    var money2 = new Money(Currency.CAD, Amount: 100);
 
-            Assert.Equal(expected: money1, actual: money2);
-        }
+        //    Assert.Equal(expected: money1, actual: money2);
+        //}
     }
 }
